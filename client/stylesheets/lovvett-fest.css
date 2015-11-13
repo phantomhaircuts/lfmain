@@ -1,0 +1,349 @@
+/* CSS declarations go here */
+
+/*Before Declarations*/
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+* {
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+}
+
+/*Main and Nav Styles*/
+
+body {
+  max-width: 100%;
+  height: 800px; /* For Safari 5.1 to 6.0 */
+  background-image: url("images/coverphoto.jpg");
+  background-size: cover;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+a a:visited{
+  color: black;
+  text-decoration: none!important;
+}
+
+.fa-bars, #mlogo {
+  display: none;
+}
+
+.navbar {
+  max-width: 100%;
+  margin: 0;
+  text-align: center;
+  background-color: #222;
+  border: 1px solid #080808;
+  color: #777;
+  letter-spacing: 1px;
+}
+
+.out h1 {
+  margin: none !important;
+  padding: none !important;
+}
+
+a {
+  text-decoration: none!important;
+}
+
+.navbar a, a:visited, h3 {
+  display: inline;
+  color: black;
+  text-decoration: none;
+}
+
+.reserve a, .reserve a:visited {
+  text-decoration: none!important;
+  color: black!important;
+
+}
+
+nav {
+  margin: 25px;
+  padding: 0;
+  max-width: 100%;
+  height: 80px;
+  background:rgba(255,255,255,.25);
+  /*text-transform: uppercase;*/
+  color: #000;
+  font-weight: 700;
+  font-size: 1.167em;
+  letter-spacing: 1px;
+  padding: 8px 20px;
+  display: block;
+  position: relative;
+  line-height: 44px;
+  white-space: nowrap;
+  cursor: inherit;
+  overflow: hidden;
+}
+
+.salutation {
+  font-size: 40px;
+  margin: 0;
+  display: none;
+}
+
+nav:hover {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  background:rgba(255,255,255,.8);
+}
+
+ #love{
+  color: black;
+  /*font-family: 'Tienne', serif;*/
+}
+
+#logo-span {
+}
+
+.nav-span, #logo-span {
+  height: 80px;
+  display: table-cell;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 1px solid rgba(0,0,0,.2);
+  width: 1px;
+  position: relative;
+  vertical-align: middle;
+  cursor: default;
+}
+
+ul {
+  /*padding-top: 1em;*/
+  margin-left: 20px;
+  width: 40%;
+}
+
+li {
+  padding-top: 1em;
+  font-size: 1.2em;
+}
+
+.nav-span:hover {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  color: red;
+  border-bottom: 10px solid red;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* Content and Footer Styles*/
+
+.text-content {
+  transform: rotate(3deg);
+  font-family: 'Special Elite', cursive;
+  display: block;
+  /*margin-top: 10vh !important;*/
+  text-align: left;
+  color: #777;
+  font-size: 2em;
+  background-image: url("images/paper_fibers_@2X.png");
+  /*background:rgba(255,255,255,.25);*/
+  /*width: 70%;*/
+  margin-top: 2.8em!important;
+  margin: 0 auto;
+  height: 380px;
+  vertical-align: middle;
+  opacity: 0.9;
+  min-width: 700px;
+  max-width: 482px;
+  min-height: 376px;
+}
+
+h4 {
+  padding-top: .5em;
+  font-family: 'Special Elite', cursive;
+  margin: 5px;
+  display: block;
+  font-size: 25px;
+}
+
+h6 {
+  font-family: 'Special Elite', cursive;
+  margin: 5px;
+}
+
+.left {
+  float: left;
+  display: inline-block;
+  width: 60%;
+  border-right: 1px solid #777;
+  height: 375px;
+}
+
+.right {
+  float: right;
+  display: inline-block;
+  width: 30%;
+  height: 375px;
+  padding-top: 10px;
+  margin-right: 2px;
+}
+
+#dec-one {
+  padding-right: 2em!important;
+  float: right;
+  display: inline;
+  margin-right: 3em;
+}
+
+#dec-two {
+  float: left;
+  display: inline;
+}
+
+.dec-box {
+  display: block;
+  margin-top: 1em;
+}
+
+.pm {
+  position: absolute;
+  /*width: 150px;*/
+  right: 5%;
+  top: 4%;
+  max-width: 20%;
+  z-index: 100;
+}
+
+.stamp {
+  position: relative;
+  display: inline;
+  width: 68%;
+  float: right;
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+  transform: rotate(7deg);
+}
+
+.post-addy {
+  font-family: 'Special Elite', cursive;
+  margin-top: 155px;
+  margin-right: 10px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.fa-chevron-right:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.fa-chevron-left:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.portrait {
+  width: 150px;
+  height: 200px;
+  border: 1px solid #777;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 auto;
+  /*background-image: url('');*/
+  /*background-color: red;*/
+}
+
+.content-page {
+    background-image: url("images/paper_fibers_@2X.png");
+    position: relative;
+    margin: 0 auto;
+    min-height: 525px;
+    overflow: auto;
+    width: 70%;
+    color: #777;
+    z-index: 9001;
+    display: none;
+    opacity: 0.7;
+    padding: 2em;
+}
+
+.content-page h4 {
+  width: 50%;
+}
+
+.content-title {
+  color: red;
+}
+
+.res-out {
+  position: relative;
+  cursor: pointer;
+  width: auto;
+  display: inline;
+  top: 20px;
+}
+
+.content-image {
+  width: 45%;
+  position: absolute;
+  display: inline-block;
+  right: 3%;
+  bottom: 18%;
+  padding: 2px;
+  border: 4px solid #777;
+  /*float: right;*/
+}
+
+.vertical-content-image {
+  width: 25%;
+  /*min-width: ;*/
+  min-height: 375px;
+  position: absolute;
+  display: inline-block;
+  border: 4px solid #777;
+  right: 20%;
+  bottom: 15%;
+  /*margin: 1em;*/
+}
+
+.content-dec-box li {
+  float: right;
+}
+
+.content-dec-box a, .content-dec-box a:visited {
+  color:black;
+}
+
+.content-dec-box {
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  font-size: 20px;
+}
+
+iframe {
+  width: 100%;
+  /*height: 500px;*/
+  margin: 0 auto;
+}
+
+.video {
+  opacity: 9 !important;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 15px;
+  width: 100%;
+  bottom: 0;
+  height: 70px;
+  margin: 0 auto;
+  position: fixed;
+  display: block;
+}
